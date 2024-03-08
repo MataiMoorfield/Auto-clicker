@@ -4,9 +4,18 @@ A auto clicker made in C++ for macOS, Windows, or Linux. Demo video [here](https
 # Installation
 ## Mac:
 Follow these steps for [here](https://www3.cs.stonybrook.edu/~alee/g++/g++_mac.html) or install with Homebrew [here](http://cs.millersville.edu/~gzoppetti/InstallingGccMac.html)
-
+Clone the repository:
+```
+git clone https://github.com/MataiMoorfield/Auto-clicker
+cd Auto-clicker/main/mac
+```
 ## Windows:
-Follow these steps [here](https://code.visualstudio.com/docs/cpp/config-mingw). 
+Follow these steps to install g++ [here](https://code.visualstudio.com/docs/cpp/config-mingw). 
+Clone the repository:
+```
+git clone https://github.com/MataiMoorfield/Auto-clicker
+cd Auto-clicker/main/windows
+```
 
 ## Linux:
 **Ubuntu, Debian, and related distributions:**
@@ -15,21 +24,24 @@ Follow these steps [here](https://linuxhint.com/install-and-use-g-on-ubuntu/)
 **CentOS, Fedora, and related distributions:**
 Follow steps [here](https://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/)
 
+Clone the repository:
+```
+git clone https://github.com/MataiMoorfield/Auto-clicker
+cd Auto-clicker/main/linux
+```
+
 # How to compile
 ## Mac
 ```
-cd Auto-clicker/main/mac
 g++ -o autoclicker main.cpp -framework ApplicationServices -std=c++11
 ```
 ## Windows
 ```
-cd Auto-clicker/main/windows
 g++ -o autoclicker.exe main.cpp -std=c++11
 ```
 
 ## Linux
 ```
-cd Auto-clicker/main/linux
 g++ -o autoclicker main.cpp -std=c++11
 ```
 
