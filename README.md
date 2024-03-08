@@ -6,7 +6,7 @@ A auto clicker made in C++ for macOS, Windows, or Linux
 
 # Installation
 ## Mac:
-Follow these steps for [here](https://www3.cs.stonybrook.edu/~alee/g++/g++_mac.html) or installation with Homebrew [here](http://cs.millersville.edu/~gzoppetti/InstallingGccMac.html)
+Follow these steps for [here](https://www3.cs.stonybrook.edu/~alee/g++/g++_mac.html) or install with Homebrew [here](http://cs.millersville.edu/~gzoppetti/InstallingGccMac.html)
 
 ## Windows:
 Follow these steps [here](https://code.visualstudio.com/docs/cpp/config-mingw). 
