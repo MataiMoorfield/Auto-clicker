@@ -5,60 +5,51 @@ A auto clicker made in C++ for macOS, Windows, or Linux
 
 
 # Installation
-## Mac
-Install Xcode command line tools:
-```
-xcode-select --install
-```
-Verify the installiasion of g++:
-```
-g++ --version
-```
+## Mac:
+Follow these steps for [here](https://www3.cs.stonybrook.edu/~alee/g++/g++_mac.html) or installation with Homebrew [here](http://cs.millersville.edu/~gzoppetti/InstallingGccMac.html)
 
-## Windows
+## Windows:
 Follow these steps [here](https://code.visualstudio.com/docs/cpp/config-mingw). 
 
-## Linux
-**Ubuntu, Debian, and related distributions**
-Update:
-```
-sudo apt update
-```
-Install g++:
-```
-sudo apt install g++
-```
+## Linux:
+**Ubuntu, Debian, and related distributions:**
+Follow these steps [here](https://linuxhint.com/install-and-use-g-on-ubuntu/)
 
 **CentOS, Fedora, and related distributions:**
-Update:
-```
-sudo yum update
-```
-Or
-```
-sudo dnf update
-```
-Install g++:
-```
-sudo yum install gcc-c++
-```
-Or
-```
-sudo dnf install gcc-c++
-```
-
-**Arch Linux and related distributions**
-Update:
-```
-sudo pacman -Syu
-```
-Install g++:
-```
-sudo pacman -S gcc
-```
-
-
-
+Follow steps [here](https://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/)
 
 # How to compile
 ## Mac
+```
+cd Auto-clicker/main/mac
+g++ -o autoclicker main.cpp -framework ApplicationServices -std=c++11
+```
+## Windows
+```
+cd Auto-clicker/main/windows
+g++ -o autoclicker.exe main.cpp -std=c++11
+```
+
+## Linux
+```
+cd Auto-clicker/main/linux
+g++ -o autoclicker main.cpp -std=c++11
+```
+
+# How to run
+> The autocliker clickes once, allowing the user to start the program and leave the mouse over the CPS test. The first single click will swap windows. After the single click, the autoclicker will click rapidially for **1 second**
+
+## Mac
+```
+./autoclicker
+```
+
+## Windows
+```
+autoclicker.exe
+```
+
+## Linux
+```
+./autoclicker
+```
