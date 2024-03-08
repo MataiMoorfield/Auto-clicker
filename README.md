@@ -62,6 +62,7 @@ autoclicker.exe
 ```
 ./autoclicker
 ```
+
 <img width="800" alt="Screenshot 2024-03-08 at 18 42 19" src="https://github.com/MataiMoorfield/Auto-clicker/assets/138086469/4bf637f6-0c8b-4ad0-8c10-a11da680e142">
 
 
