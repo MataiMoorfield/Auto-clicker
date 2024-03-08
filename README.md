@@ -4,14 +4,14 @@ A auto clicker made in C++ for macOS, Windows, or Linux. Demo video [here](https
 # Installation
 ## Mac:
 Follow these steps for [here](https://www3.cs.stonybrook.edu/~alee/g++/g++_mac.html) or install with Homebrew [here](http://cs.millersville.edu/~gzoppetti/InstallingGccMac.html)
-Clone the repository:
+Clone the repository (or download as ZIP):
 ```
 git clone https://github.com/MataiMoorfield/Auto-clicker
 cd Auto-clicker/main/mac
 ```
 ## Windows:
 Follow these steps to install g++ [here](https://code.visualstudio.com/docs/cpp/config-mingw). 
-Clone the repository:
+Clone the repository (or download as ZIP):
 ```
 git clone https://github.com/MataiMoorfield/Auto-clicker
 cd Auto-clicker/main/windows
@@ -24,7 +24,7 @@ Follow these steps [here](https://linuxhint.com/install-and-use-g-on-ubuntu/)
 **CentOS, Fedora, and related distributions:**
 Follow steps [here](https://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/)
 
-Clone the repository:
+Clone the repository (or download as ZIP):
 ```
 git clone https://github.com/MataiMoorfield/Auto-clicker
 cd Auto-clicker/main/linux
