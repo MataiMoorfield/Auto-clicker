@@ -48,8 +48,7 @@ g++ -o autoclicker main.cpp -std=c++11
 ```
 
 # How to run
-> The autocliker clickes once, allowing the user to start the program and leave the mouse over the CPS test. The first single click will swap windows. After the single click, the autoclicker will click rapidially for **1 second**
-
+> The autocliker clickes once, allowing the user to start the program and leave the mouse over the CPS test. The first single click will swap windows. After the single click, the autoclicker will click rapidially for **1 second**. This time can be changed in the C++. Allow **0.1** of a second for errors in the synced timing of the CPS test and C++ (for example, 1 second should be 1.1).
 ## Mac
 ```
 ./autoclicker
